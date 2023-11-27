@@ -1,6 +1,6 @@
 
 ### Run
-`composer dump-autoload`
+`composer install`
 
 ### Old
 `php ugly.php input.txt`
@@ -9,3 +9,6 @@
 `php index.php input.txt`
 
 - php8.2 was used
+
+### Test
+`./vendor/bin/phpunit tests`
